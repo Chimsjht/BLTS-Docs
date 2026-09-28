@@ -240,3 +240,5 @@ Open each file in Word and use **Review → Accept / Reject** to review each cha
 ## 9. Clean final version
 
 `final/part1_final.docx`, `final/part2_final.docx` and `final/part3_final.docx` have **all tracked changes accepted**. The **comments are kept** because they list the items the researchers still have to complete. Delete each comment once its item is done, then update the Table of Contents, List of Tables and List of Figures in Word (References → Update Table).
+
+`final/part1_final_nocomments.docx`, `final/part2_final_nocomments.docx` and `final/part3_final_nocomments.docx` are the same clean versions **with all comments removed**, for sharing outside the college (e.g., the Extension Program). The open items in the comments are still listed in Section 8.
