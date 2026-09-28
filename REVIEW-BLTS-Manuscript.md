@@ -231,8 +231,12 @@ Open each file in Word and use **Review → Accept / Reject** to review each cha
 - Five turnover-related recommendations added (training, hosting/backup, data privacy, lowest-rated items, future accuracy testing).
 - References: Perbangsa, Schreiber, Srinivas and Gao rewritten in APA 7 and re-sorted alphabetically; Donato URL and Mino typo fixed; duplicate heading removed.
 
-**part3.docx (Appendices):** 223 edits and 7 comments
+**part3.docx (Appendices):** 223 edits and 6 comments
 - Appendix I: each sub-characteristic's "Mean Average" block was replaced with a correct Entire Group (n = 30) computation; each characteristic's Entire Group block with a pooled computation; 17 group σ/Total errors were fixed.
 - "Accesibility" and "JEROLETTE A, DOMINGO" typos fixed.
 
 **Left as comments (need information from the researchers):** sources for the population and legislation counts; the OCR engine and sentiment-analysis method; OCR/sentiment accuracy; additional literature; ethics/Data Privacy paragraph; instrument validation; sampling criteria; accurateness vs appropriateness (ISO 25010); deployment requirements; forum approval flow; Hinkley (2023) and ISO 25010 references; Jayoma DOI and Mendis authors; Schreiber inventor list; resume redaction.
+
+## 9. Clean final version
+
+`final/part1_final.docx`, `final/part2_final.docx` and `final/part3_final.docx` have **all tracked changes accepted**. The **comments are kept** because they list the items the researchers still have to complete. Delete each comment once its item is done, then update the Table of Contents, List of Tables and List of Figures in Word (References → Update Table).
