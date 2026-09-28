@@ -242,3 +242,9 @@ Open each file in Word and use **Review → Accept / Reject** to review each cha
 `final/part1_final.docx`, `final/part2_final.docx` and `final/part3_final.docx` have **all tracked changes accepted**. The **comments are kept** because they list the items the researchers still have to complete. Delete each comment once its item is done, then update the Table of Contents, List of Tables and List of Figures in Word (References → Update Table).
 
 `final/part1_final_nocomments.docx`, `final/part2_final_nocomments.docx` and `final/part3_final_nocomments.docx` are the same clean versions **with all comments removed**, for sharing outside the college (e.g., the Extension Program). The open items in the comments are still listed in Section 8.
+
+## 10. Round 2: answers from the adviser (items 7–9)
+
+- **Population:** now "22,713 based on the 2024 Census of Population (POPCEN) of the PSA", with a PSA reference entry. *Please double-check* (see the comment): the original said 36,447, and the PSGC code in the link (0600600000) may be the province-level code rather than Bugasong's.
+- **127 resolutions and ordinances:** source added (Sangguniang Bayan Office records).
+- **"Microsoft database":** changed to Microsoft Excel and Microsoft Word.
