@@ -7,6 +7,8 @@ Review date: September 28, 2026
 
 ---
 
+> **Update:** the corrections have been applied as **tracked changes** (author "Claude (Reviewer)") to `part1.docx`, `part2.docx` and `part3.docx`, with Word comments for the items only the researchers can supply. See Section 8.
+
 ## 1. Overall verdict
 
 | Area | Rating | Comment |
@@ -38,10 +40,10 @@ Appendix I shows that each "Entire Group" mean is the **plain average of the thr
 | Maturity | 4.64 | **4.57** |
 | User error protection | 4.57 | **4.53** |
 | Replaceability | 4.55 | **4.47** |
-| Grand mean (Table 15) | 4.72 | **≈ 4.70** |
+| Grand mean (Table 15) | 4.72 | **4.69** |
 
 - The Entire Group **SD must describe the spread of the 30 responses**. Values such as 0.01–0.06 are the spread of three means, which makes the ratings look far more uniform than they are. Recompute the SD from all 30 responses.
-- Appendix I divides by **n** for some groups (IT: √(3.6/15)) and by **n − 1** for others (SB: √(0.86/7)). Choose one formula (sample SD, n − 1, is conventional) and state it in *Statistical Treatment of Data*.
+- Appendix I uses the population SD (divide by n) consistently, but 17 of the group σ values contain arithmetic errors (e.g., Fault Tolerance, community: 0.39 should be 0.45; UI Aesthetics, IT experts: 0.4 should be 0.49).
 
 All interpretations stay "Very Satisfactory", so the conclusions stand, but the numbers should be corrected in Tables 6–15, the discussion text and Appendix I.
 
@@ -95,7 +97,6 @@ The study collected responses from 30 people and processes citizens' emails and 
 ### 3.4 Part 2 vs Part 3 (Appendices)
 - **Appendix I** calculations produce the incorrect values described in 2.2. Update them together with the tables.
 - **Appendix F (Use Case)** has an "Adding User Account" use case in which the admin registers citizens, while Chapter 4 (Fig. 11) and the User Manual describe **citizen self-registration**. State both flows or make them agree.
-- **Appendix H (User Manual)**, forum paragraph, ends mid-sentence: "…if not it will not appear to". Finish the sentence.
 - The Background mentions an "**interview and survey**", but no interview guide or survey form from the problem-identification stage is in the appendices. Add it (e.g., as part of Appendix A or D) or remove "survey".
 - The Chapter 3 sprint list has **9 sprints**. Check that the Gantt Chart (Fig. 9 / Appendix B) shows the same sprints.
 
@@ -104,7 +105,7 @@ The study collected responses from 30 people and processes citizens' emails and 
 ## 4. Chapter-by-chapter notes
 
 ### Preliminary pages
-- **Abstract:** add the **key numerical result** (overall mean, e.g., "an overall mean of 4.70, 'Very Satisfactory'"), the number and type of respondents, and **keywords** (e.g., legislative tracking, OCR, sentiment analysis, e-governance, ISO 25010).
+- **Abstract:** add the **key numerical result** (overall mean, e.g., "an overall mean of 4.69, 'Very Satisfactory'"), the number and type of respondents, and **keywords** (e.g., legislative tracking, OCR, sentiment analysis, e-governance, ISO 25010).
 - Acknowledgement: "Mr. Levi John A. Bernisto" is missing his "MIS" (it appears on the approval sheet). Make panel names and titles identical everywhere.
 
 ### Chapter 1 – Introduction
@@ -167,7 +168,7 @@ Use **APA 7th edition** consistently, in alphabetical order:
 - **Donato (2023):** remove the "#:~:text=…" text-fragment from the URL and the "Www." prefix in the site name.
 - **Mino (2021)** is in the References but **not cited** in the text. Cite it or remove it. The title also has a typo ("Resons").
 - Add missing sources: **Hinkley (2023)**, **ISO/IEC 25010:2011**, and the laws and census data cited (if added).
-- Delete the doubled heading "REFERENCES / References" (the second one is redundant), and delete the trailing lone "REFERENCES" at the end of Part 3.
+- Delete the doubled heading "REFERENCES / References" (the second one is redundant).
 
 ---
 
@@ -182,7 +183,7 @@ Use **APA 7th edition** consistently, in alphabetical order:
 | E – Sample Filled-in Form | ✅ | Blur respondent names or signatures if published |
 | F – Use Case | ✅ | Registration flow inconsistency (Section 3.4) |
 | G – User Interface | ✅ | Names differ from Chapter 4 figure names. Match them |
-| H – User Manual | ✅ | Finish the cut-off sentence. Add admin log-in and publish/unpublish steps |
+| H – User Manual | ✅ | Add admin log-in and publish/unpublish steps |
 | I – Test Result | ✅ | Recompute (Section 2.2) |
 | J – Sample Output | ✅ | |
 | K – Certificate of Acceptance | ✅ | Important for the Extension Program. Make sure it is signed and dated by the LGU |
@@ -207,3 +208,31 @@ Use **APA 7th edition** consistently, in alphabetical order:
 **Must fix (research validity):** 2.1 author/adviser listing · 2.2 weighted means and SD · 2.3 remove or test the significance claim · 2.4 describe the OCR and sentiment methods and qualify the claims · 2.5 ethics and data privacy.
 **Should fix (consistency):** List of Figures and TOC · wrong table references · number mismatches · missing or extra references · patent labels in Table 1.
 **Nice to fix (editorial):** tense consistency, grammar, APA formatting, abstract keywords and results.
+
+---
+
+## 8. Corrections applied as tracked changes
+
+Open each file in Word and use **Review → Accept / Reject** to review each change. Rejecting all changes returns each file's original text.
+
+**part1.docx (preliminary pages):** 8 edits and 4 comments
+- Removed "Jessie H. Tacuyan" from the proponents on 4 pages (with a comment; reject these deletions if college policy allows it).
+- The second "Adviser's Recommendation Sheet" is now "Instructor's Recommendation Sheet"; added "MIS" after Bernisto's name.
+- Abstract: fixed a stray tab in "To address"; added the respondents and the overall result (M = 4.69); added Keywords.
+- TOC: "Scope and Limitations", "Evaluation Instruments". The corrected List of Figures is in a comment, because page numbers must be regenerated in Word.
+
+**part2.docx (Chapters 1–5, References):** 109 edits, 164 table-cell corrections and 19 comments
+- **Tables 6–15** recomputed from the Appendix I frequencies: Entire Group weighted by n = 30, Mean Average and SD from all responses.
+- The Chapter 4 discussion was updated to the corrected values. Rankings changed in usability (learnability alone is highest), security (confidentiality alone is highest) and compatibility (co-existence is now highest).
+- The "no significant difference" claim was reworded; a comment explains the Kruskal-Wallis option.
+- Table references fixed (Table 4→5, 8→13, 9→14, 10→15); Table 12 caption moved above its table; Table 4 percentages.
+- Grammar and typo fixes (Ch. 1–4); patents relabeled in Table 1; EP2821934A1→US2023065934A1; the research-gap sentence was completed.
+- Statistical Treatment now explains the weighting and SD method. The Conclusion no longer claims the system "ensures only appropriate content".
+- Five turnover-related recommendations added (training, hosting/backup, data privacy, lowest-rated items, future accuracy testing).
+- References: Perbangsa, Schreiber, Srinivas and Gao rewritten in APA 7 and re-sorted alphabetically; Donato URL and Mino typo fixed; duplicate heading removed.
+
+**part3.docx (Appendices):** 223 edits and 7 comments
+- Appendix I: each sub-characteristic's "Mean Average" block was replaced with a correct Entire Group (n = 30) computation; each characteristic's Entire Group block with a pooled computation; 17 group σ/Total errors were fixed.
+- "Accesibility" and "JEROLETTE A, DOMINGO" typos fixed.
+
+**Left as comments (need information from the researchers):** sources for the population and legislation counts; the OCR engine and sentiment-analysis method; OCR/sentiment accuracy; additional literature; ethics/Data Privacy paragraph; instrument validation; sampling criteria; accurateness vs appropriateness (ISO 25010); deployment requirements; forum approval flow; Hinkley (2023) and ISO 25010 references; Jayoma DOI and Mendis authors; Schreiber inventor list; resume redaction.
